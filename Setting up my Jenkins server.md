@@ -7,8 +7,8 @@
   - [Rebuilding the Jenkins pipeline](#rebuilding-the-jenkins-pipeline)
   - [Job 1](#job-1)
   - [Job 2](#job-2)
-  - [job 3](#job-3)
-  - [Individual lines of code for Job 3 that worked](#individual-lines-of-code-for-job-3-that-worked)
+  - [Job 3](#job-3)
+    - [Individual lines of code for Job 3 that worked](#individual-lines-of-code-for-job-3-that-worked)
   - [**Blockers**](#blockers)
 
 ## Setting up Jenkins on my local machine
@@ -52,16 +52,17 @@ add jenkins commands (url) for restarting server etc.
 
 ## Job 1
 
-- copied these settings and steps
+- Followed my [Week 3 steps](https://github.com/farahc123/tech501-week3/blob/main/Jenkins%20CICD.md)
 ![alt text](image-7.png)
-- added webhook on github repo here
+- Added webhook on github repo here
 ![alt text](image-8.png)
 
 ## Job 2
 
-- Followed these steps
+- Followed my [Week 3 steps](https://github.com/farahc123/tech501-week3/blob/main/Jenkins%20CICD.md)
+![alt text](image-7.png)
 
-## job 3
+## Job 3
 
 `scp -o StrictHostKeyChecking=no -r /var/jenkins/workspace/sparta-app-job2-ci-merge/ ubuntu@ec2-34-244-68-243.eu-west-1.compute.amazonaws.com:/home/tech501-sparta-app/`
 
@@ -76,7 +77,7 @@ add jenkins commands (url) for restarting server etc.
 
 - Path for edits: `/repo/nodejs20-sparta-test-app/app/views# nano index.ejs`
 
-## Individual lines of code for Job 3 that worked
+### Individual lines of code for Job 3 that worked
 
 **works:**
 
